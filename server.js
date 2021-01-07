@@ -33,7 +33,7 @@ app.use((error, req, res, next) => {
 });
 
 //Connecting to MongoDB
-mongoose.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.fdsor.gcp.mongodb.net/learning?retryWrites=true&w=majority`, {
+mongoose.connect(process.env.DB_LINK, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
