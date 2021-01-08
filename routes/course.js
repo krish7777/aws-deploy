@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/test', (req, res) => {
     try {
-        res.json({ "test": "ok v2" })
+        res.json({ "test": "ok v3 of api" })
     } catch (err) {
         if (!err.statusCode) {
             err.statusCode = 500
