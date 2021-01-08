@@ -16,7 +16,7 @@ app.use(cors())
 //TEST ROUTE
 app.get('/api', (req, res) => {
     console.log(process.env.MONGO_USER)
-    res.send("test from krish")
+    res.send("test from krish, changeing this shud reflet in v2")
 })
 
 app.use('/api/upload', uploadRoutes)
