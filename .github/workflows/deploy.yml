@@ -22,4 +22,6 @@ jobs:
           comment: Deploy the master branch
 
           working-directory: /home/ubuntu/aws-deploy
-          command: /bin/sh ./deploy.sh 
+          command: ls -al
+      - name: Get the outputs
+        run: echo "The Command id is ${{ steps.ssm.outputs.command-id }}"
