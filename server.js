@@ -16,7 +16,7 @@ app.use(cors())
 //TEST ROUTE
 app.get('/', (req, res) => {
     console.log(process.env.MONGO_USER)
-    res.send("test from krish, changeing this shud reflet in v2 after workflow update --- on JAN 15")
+    res.send("test from krish, changeing this shud reflet in v2 after workflow update --- on JAN 15 [FINAL SERVER UPDATE]")
 })
 
 app.use('/upload', uploadRoutes)
