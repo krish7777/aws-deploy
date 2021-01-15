@@ -20,7 +20,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        REACT APP , {this.state.name} some chande [Frontend v3][FINAL FRONTENT UPDATE]
+        REACT APP , {this.state.name} some chande [Frontend v3][FINAL FRONTENT UPDATE] --- ZOOOM
       </div>
     );
   }
