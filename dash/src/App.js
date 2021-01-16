@@ -11,7 +11,6 @@ function App() {
 
         <Route path="/admin" component={Home} />
       </Switch>
-
     </div>
   );
 }

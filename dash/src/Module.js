@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const Module = () => {
-    console.log("IDDD - ", this.props.match.params.id)
-    console.log("TYPEE", this.props.match.params.type)
+const Module = (props) => {
+    console.log("IDDD - ", props.match.params.id)
+    console.log("TYPEE", props.match.params.type)
     return (
         <div>
             Module comp
