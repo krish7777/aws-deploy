@@ -6,6 +6,7 @@ const Home = () => {
         <div>
             HOME Comp
             <Link to="/admin/arduino/module/2222222">Go to module</Link>
+            <Link to="/">HMMM</Link>
         </div>
     )
 }
