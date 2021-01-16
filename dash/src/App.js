@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Module from './Module';
 import Home from './Home';
-
+import { Switch, BrowserRouter as Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
