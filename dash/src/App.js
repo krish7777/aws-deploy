@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Module from './Module';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React -> Admin Dash with the static things
-        </a>
-      </header>
+      <Switch>
+        <Route path="/admin/:type/module/:id" component={Module} />
+
+        <Route path="/admin" component={Home} />
+      </Switch>
+
     </div>
   );
 }
